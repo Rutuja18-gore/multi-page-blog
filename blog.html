@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MainCraft Blog | Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">MainCraft Blog</a>
+        <button class="menu-btn" aria-label="Open menu">&#9776;</button>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li><a class="nav-link" href="post.html">Post</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="layout">
+      <div class="container layout-grid">
+        <section class="card panel">
+          <span class="eyebrow">Front-End Development Blog</span>
+          <h2>All Blog Posts</h2>
+          <p>Organized content with reusable post cards and metadata.</p>
+
+          <div class="post-list" style="margin-top: 1rem">
+            <article class="list-item" data-category="html css">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+                alt="Coding workspace"
+              />
+              <div>
+                <div class="post-meta"><span>UI/UX</span><span>Apr 20, 2026</span></div>
+                <h3>How to Build Reusable Blog Components</h3>
+                <p>
+                  Shared classes for cards and spacing simplify maintenance across pages.
+                </p>
+                <a class="read-more" href="post.html">Continue reading -></a>
+              </div>
+            </article>
+
+            <article class="list-item" data-category="typography design css">
+              <img
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80"
+                alt="Code on monitor"
+              />
+              <div>
+                <div class="post-meta"><span>Design</span><span>Apr 17, 2026</span></div>
+                <h3>Typography Rules for Readable Content</h3>
+                <p>Use clear hierarchy, good contrast, and balanced line lengths.</p>
+                <a class="read-more" href="post.html">Continue reading -></a>
+              </div>
+            </article>
+
+            <article class="list-item" data-category="responsive flexbox grid">
+              <img
+                src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=900&q=80"
+                alt="Team discussing project"
+              />
+              <div>
+                <div class="post-meta"><span>Workflow</span><span>Apr 14, 2026</span></div>
+                <h3>Planning Multi-Page Front-End Projects</h3>
+                <p>
+                  Start with shared structure, then fill each page with focused content.
+                </p>
+                <a class="read-more" href="post.html">Continue reading -></a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <aside class="card panel">
+          <h3>Categories</h3>
+          <ul class="chip-list" style="margin: 0.75rem 0 1rem">
+            <li><button class="chip chip-btn active" type="button" data-filter="all">All</button></li>
+            <li><button class="chip chip-btn" type="button" data-filter="html">HTML</button></li>
+            <li><button class="chip chip-btn" type="button" data-filter="css">CSS</button></li>
+            <li><button class="chip chip-btn" type="button" data-filter="flexbox">Flexbox</button></li>
+            <li><button class="chip chip-btn" type="button" data-filter="grid">Grid</button></li>
+            <li><button class="chip chip-btn" type="button" data-filter="responsive">Responsive</button></li>
+            <li><button class="chip chip-btn" type="button" data-filter="typography">Typography</button></li>
+          </ul>
+
+          <h3 style="margin-top: 0.6rem">Newsletter</h3>
+          <p style="margin-bottom: 0.75rem">Get weekly web development tips.</p>
+          <form class="newsletter">
+            <input type="email" placeholder="you@example.com" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 MainCraft Blog. All rights reserved.</p>
+        <p>Crafted with HTML, CSS, and JavaScript</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

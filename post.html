@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MainCraft Blog | Post</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">MainCraft Blog</a>
+        <button class="menu-btn" aria-label="Open menu">&#9776;</button>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="blog.html">Blog</a></li>
+          <li><a class="nav-link active" href="post.html">Post</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="article-wrap container">
+      <header class="article-head">
+        <span class="eyebrow">Front-End Development Blog</span>
+        <h1>Building a Clean Blog Layout with HTML and CSS</h1>
+        <div class="post-meta"><span>By Intern Developer</span><span>Apr 20, 2026</span><span>8 min read</span></div>
+      </header>
+
+      <article class="card article-body">
+        <img
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1100&q=80"
+          alt="A clean coding workspace with laptop"
+          style="border-radius: 12px; margin-bottom: 1rem"
+        />
+
+        <p>
+          Creating a blog website is one of the best ways to practice front-end
+          development. It naturally teaches page structure, styling consistency,
+          and responsive design.
+        </p>
+
+        <p>
+          In this project, we used shared classes for headers, cards, buttons,
+          and spacing. This reduces duplicated code and keeps styling easier to
+          update as the website grows.
+        </p>
+
+        <h3>What we focused on</h3>
+        <ul>
+          <li>Multi-page navigation with consistent header and footer.</li>
+          <li>Reusable cards and content sections for better organization.</li>
+          <li>Readable typography through spacing, hierarchy, and contrast.</li>
+          <li>Responsive behavior using media queries and flexible layouts.</li>
+        </ul>
+
+        <p>
+          As you continue improving this project, try adding categories, search,
+          and a contact section. You can also connect this design to a backend
+          later to make your blog fully dynamic.
+        </p>
+
+        <a class="btn btn-primary" href="blog.html">Back to Blog List</a>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 MainCraft Blog. All rights reserved.</p>
+        <p>Crafted with HTML, CSS, and JavaScript</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
